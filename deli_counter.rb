@@ -26,9 +26,9 @@ end
 def now_serving(katz_deli)
 #if line is empty
 #then print out that the line is empty
-   if katz_deli.length == 0
+  if katz_deli.length == 0
   puts "There is nobody waiting to be served!"
-else
+  else
 
-end
+  end
 end
