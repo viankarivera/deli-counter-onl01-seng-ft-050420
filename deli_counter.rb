@@ -15,3 +15,10 @@ def line(katz_deli)
  #loop over katz_deli array and print out each person's place in line
   end
 end
+
+def take_a_number(katz_deli,name)
+  #add person to line
+  katz_deli << name #adding a person to line
+  counter = katz_deli.length #need this to determine how many people in line
+  puts "Welcome, #{name}. You are number #{counter} in line." #displayed message
+end
