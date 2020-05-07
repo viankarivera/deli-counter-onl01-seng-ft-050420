@@ -26,5 +26,5 @@ end
 def now_serving(katz_deli)
 #if line is empty
 #then print out that the line is empty
-  puts "The line is empty."
+  puts "There is nobody waiting to be served!"
 end
