@@ -22,3 +22,9 @@ def take_a_number(katz_deli,name)
   counter = katz_deli.length #need this to determine how many people in line
   puts "Welcome, #{name}. You are number #{counter} in line." #displayed message
 end
+
+def now_serving(katz_deli)
+#if line is empty
+#then print out that the line is empty
+  puts "The line is empty."
+end
